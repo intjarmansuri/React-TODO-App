@@ -1,12 +1,29 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Todo App** built with **React** and styled using **Tailwind CSS**. This app utilizes **Context API** for state management and stores todos in **localStorage** so that they persist even after refreshing the page.
 
-Currently, two official plugins are available:
+## Features
+- Add, edit, and delete todos
+- Mark todos as completed
+- Uses Context API for global state management
+- Stores todos in localStorage for persistence
+- Responsive and minimal UI with Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React – Frontend framework
+- Tailwind CSS – Styling
+- Context API – State management
+- LocalStorage – Data persistence
+```
 
-## Expanding the ESLint configuration
+## Usage
+1. Enter a task in the input field and press **Enter** to add it.
+2. Click on a todo to **mark it as completed**.
+3. Use the **edit** button to modify a todo.
+4. Use the **delete** button to remove a todo.
+5. Your tasks are **automatically saved** in localStorage.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshot
+![Screenshot (327)](https://github.com/user-attachments/assets/9b9b5f81-01ff-4792-bc5b-bd578ee1dc81)
+```
+
